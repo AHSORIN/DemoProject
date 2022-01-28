@@ -16,6 +16,7 @@ public class FirstPgChromeTest {
 	   driver.manage().timeouts().pageLoadTimeout(40,TimeUnit.SECONDS);
 	   driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 	   driver.get("https://www.google.co.in/");
+	   System.out.println("TITLE" +driver.getTitle());
 	   
 	}
 
