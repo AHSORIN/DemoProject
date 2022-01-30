@@ -18,6 +18,7 @@ public class FirstPgChromeTest {
 	   driver.get("https://www.spicejet.com//");
 	   System.out.println("TITLE" +driver.getTitle());
 	   System.out.println("Hello");
+		System.out.println("Welcome!!!");
 	   
 	}
 
