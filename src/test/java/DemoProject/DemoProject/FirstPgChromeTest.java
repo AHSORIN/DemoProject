@@ -17,6 +17,7 @@ public class FirstPgChromeTest {
 	   driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 	   driver.get("https://www.spicejet.com//");
 	   System.out.println("TITLE" +driver.getTitle());
+	   System.out.println("Hello");
 	   
 	}
 
