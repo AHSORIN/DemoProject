@@ -15,7 +15,7 @@ public class FirstPgChromeTest {
 	   driver.manage().window().maximize();
 	   driver.manage().timeouts().pageLoadTimeout(40,TimeUnit.SECONDS);
 	   driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
-	   driver.get("https://www.google.co.in/");
+	   driver.get("https://www.spicejet.com//");
 	   System.out.println("TITLE" +driver.getTitle());
 	   
 	}
