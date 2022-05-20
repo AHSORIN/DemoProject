@@ -10,7 +10,7 @@ public class vehicle {
 	}
 	
 	public void color1() {
-		System.out.println("parent car color2");
+		System.out.println("parent car color3");
 	}
 
 }
