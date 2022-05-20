@@ -1,12 +1,12 @@
 
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Practice Suite">
-  <test name="NewTest">
+<suite name="TestNg Suite">
+  <test name="LoginPageTest">
       
       <classes>
-      <class name="TestngSample.NewTest"/>
-      <class name="TestngSample.DependsOnmethodTest"/>
+      <class name="LoginPageTest"/>
+     
       </classes>
   </test> <!-- Test --> 
    
