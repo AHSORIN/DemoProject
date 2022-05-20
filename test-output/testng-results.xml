@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-02T18:31:37 IST" name="Practice Suite" finished-at="2022-02-02T18:33:02 IST" duration-ms="85193">
+  <suite started-at="2022-05-20T19:40:53 IST" name="Default suite" finished-at="2022-05-20T19:41:13 IST" duration-ms="20261">
     <groups>
     </groups>
-    <test started-at="2022-02-02T18:31:37 IST" name="NewTest" finished-at="2022-02-02T18:33:02 IST" duration-ms="85193">
-      <class name="TestngSample.NewTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestngSample.NewTest@51e69659]" started-at="2022-02-02T18:31:57 IST" name="setup" finished-at="2022-02-02T18:32:45 IST" duration-ms="48096" status="PASS">
+    <test started-at="2022-05-20T19:40:53 IST" name="Default test" finished-at="2022-05-20T19:41:13 IST" duration-ms="20261">
+      <class name="SAMPLE.New">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:SAMPLE.New@659499f1]" started-at="2022-05-20T19:40:53 IST" name="initialisation" finished-at="2022-05-20T19:41:12 IST" duration-ms="19395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTitle()[pri:0, instance:TestngSample.NewTest@51e69659]" started-at="2022-02-02T18:32:46 IST" name="getTitle" finished-at="2022-02-02T18:32:47 IST" duration-ms="268" status="PASS">
+        </test-method> <!-- initialisation -->
+        <test-method signature="getTitle()[pri:0, instance:SAMPLE.New@659499f1]" started-at="2022-05-20T19:41:12 IST" name="getTitle" finished-at="2022-05-20T19:41:12 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestngSample.NewTest@51e69659]" started-at="2022-02-02T18:33:01 IST" name="tearDown" finished-at="2022-02-02T18:33:02 IST" duration-ms="1427" status="PASS">
+        <test-method signature="validateText()[pri:0, instance:SAMPLE.New@659499f1]" started-at="2022-05-20T19:41:12 IST" name="validateText" finished-at="2022-05-20T19:41:13 IST" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestngSample.NewTest -->
-      <class name="TestngSample.DependsOnmethodTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestngSample.DependsOnmethodTest@1151e434]" started-at="2022-02-02T18:31:37 IST" name="setup" finished-at="2022-02-02T18:31:57 IST" duration-ms="20032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getTitleWebsite()[pri:0, instance:TestngSample.DependsOnmethodTest@1151e434]" started-at="2022-02-02T18:32:47 IST" name="getTitleWebsite" finished-at="2022-02-02T18:32:47 IST" duration-ms="598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitleWebsite -->
-        <test-method signature="message()[pri:0, instance:TestngSample.DependsOnmethodTest@1151e434]" started-at="2022-02-02T18:32:47 IST" name="message" finished-at="2022-02-02T18:32:47 IST" depends-on-methods="TestngSample.DependsOnmethodTest.getTitleWebsite" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- message -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestngSample.DependsOnmethodTest@1151e434]" started-at="2022-02-02T18:32:47 IST" name="tearDown" finished-at="2022-02-02T18:33:01 IST" duration-ms="13610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestngSample.DependsOnmethodTest -->
-    </test> <!-- NewTest -->
-  </suite> <!-- Practice Suite -->
+        </test-method> <!-- validateText -->
+      </class> <!-- SAMPLE.New -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
